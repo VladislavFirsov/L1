@@ -15,10 +15,6 @@ type Action struct {
 	Human
 }
 
-func (a *Action) ChangeName(name string) {
-	a.name = name
-}
-
 func main() {
 	person := Human{
 		name: "Andrew", //person name is Andrew
@@ -30,9 +26,8 @@ func main() {
 		},
 	}
 
-	person.ChangeName("Igor")     // Changes the person's name
-	act.ChangeName("NewAction")   // Changes the name of Action structure
-	act.Human.ChangeName("Anton") // Changes the name of the Human structure inside Action
+	person.ChangeName("Igor") // Changes the person's name
+	act.ChangeName("Anton")   // Changes the name of Action structure
 
 	fmt.Println(person.name)    // Igor
 	fmt.Println(act.name)       // NewAction
