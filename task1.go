@@ -30,7 +30,7 @@ func main() {
 	act.ChangeName("Anton")   // Changes the name of Action structure
 
 	fmt.Println(person.name)    // Igor
-	fmt.Println(act.name)       // NewAction
 	fmt.Println(act.Human.name) // Anton
+	fmt.Println(act.name)       // NewAction
 
 }
