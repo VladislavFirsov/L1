@@ -31,6 +31,6 @@ func main() {
 
 	fmt.Println(person.name)    // Igor
 	fmt.Println(act.Human.name) // Anton
-	fmt.Println(act.name)       // NewAction
+	fmt.Println(act.name)       // Action
 
 }
